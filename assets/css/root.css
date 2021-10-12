@@ -1,0 +1,14 @@
+:root{
+    --cor1: #084B83;
+    --cor2: #E03616;
+    --cor3: #EBF2FA;
+    --cor-branca: #fff;
+    --cor-preta: #000;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}

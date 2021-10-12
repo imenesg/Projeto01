@@ -1,0 +1,13 @@
+footer{
+    background-color: var(--cor2);
+    height: 8em;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+footer .logo{
+    width: 6.24em;
+    height: 47px;
+    background-color: var(--cor3);
+}

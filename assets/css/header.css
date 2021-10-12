@@ -1,0 +1,81 @@
+header{
+    background-color: var(--cor1);
+    width: 100%;
+    height: 4em;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+header .menu{
+    color: var(--cor2);
+    font-size: 3em;
+    position: absolute;
+    left: 1rem;
+    cursor: pointer;
+}
+header .close{
+    color: var(--cor2);
+    font-size: 3em;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    z-index: 3;
+    cursor: pointer;
+}
+
+
+header .logo{
+    width: 6.24em;
+    background-color: var(--cor3);
+    height: 100%;
+    margin: auto;
+}
+.header__nav{
+    visibility: hidden;
+    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    position:fixed;
+    background-color: var(--cor-branca);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    
+    
+    
+}
+.header__nav-visivel{
+    visibility: unset !important;
+    display: unset !important;
+    animation-name: esmaecer ;
+    animation-duration: .5s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    transform: translateY(-15px);
+    top: 0;
+}
+.header__nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;  
+    
+}
+.header__nav ul li{
+    margin: 0.5em;
+}
+.header__nav ul li a{
+    text-decoration: none;
+    font-size: 2em;
+    color: var(--cor2);
+
+    
+}
