@@ -7,7 +7,6 @@ footer{
     align-items: flex-start;
 }
 footer .logo{
-    width: 6.24em;
-    height: 47px;
-    background-color: var(--cor3);
+    width: 5em;
+    
 }
