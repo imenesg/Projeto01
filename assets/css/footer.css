@@ -1,5 +1,6 @@
 footer{
-    background-color: var(--cor2);
+    /*background-color: var(--cor2);*/
+    background-image: url(../img/fundofooter1.png);
     height: 8em;
     padding: 1em;
     display: flex;

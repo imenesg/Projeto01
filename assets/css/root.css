@@ -12,3 +12,6 @@ a{
     text-decoration: none;
     color: unset;
 }
+body{
+    background-image: url(../img/fundobody1.png);
+}
